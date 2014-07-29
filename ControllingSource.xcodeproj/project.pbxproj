@@ -82,6 +82,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		715CBBBD198824DD0056101A /* View C */ = {
+			isa = PBXGroup;
+			children = (
+				715DADD21988105B0034A410 /* JPMMasterViewController.h */,
+				715DADD31988105B0034A410 /* JPMMasterViewController.m */,
+				715DADD51988105B0034A410 /* JPMDetailViewController.h */,
+				715DADD61988105B0034A410 /* JPMDetailViewController.m */,
+			);
+			name = "View C";
+			sourceTree = "<group>";
+		};
+		715CBBBE198825000056101A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		715DADB11988105B0034A410 = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +133,11 @@
 		715DADC31988105B0034A410 /* ControllingSource */ = {
 			isa = PBXGroup;
 			children = (
+				715CBBBE198825000056101A /* Data */,
+				715CBBBD198824DD0056101A /* View C */,
 				715DADCC1988105B0034A410 /* JPMAppDelegate.h */,
 				715DADCD1988105B0034A410 /* JPMAppDelegate.m */,
 				715DADCF1988105B0034A410 /* Main.storyboard */,
-				715DADD21988105B0034A410 /* JPMMasterViewController.h */,
-				715DADD31988105B0034A410 /* JPMMasterViewController.m */,
-				715DADD51988105B0034A410 /* JPMDetailViewController.h */,
-				715DADD61988105B0034A410 /* JPMDetailViewController.m */,
 				715DADD81988105B0034A410 /* Images.xcassets */,
 				715DADC41988105B0034A410 /* Supporting Files */,
 			);
@@ -463,6 +479,7 @@
 				715DADF11988105C0034A410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		715DADF21988105C0034A410 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				715DADF41988105C0034A410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
